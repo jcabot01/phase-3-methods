@@ -3,11 +3,11 @@
 #   console.log("Hello, programmer!");
 # }
 
-def greetProgrammer
+def greet_programmer
   puts "Hello, programmer!"
 end
 
-greetProgrammer
+
 
 # function greet(name) {
 #   console.log(`Hello, ${name}!`);
