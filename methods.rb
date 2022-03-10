@@ -14,7 +14,7 @@ greetProgrammer
 # }
 
 def greet(name)
-  puts "Hello, ${name}!"
+  puts "Hello, #{name}!"
 end
 
 greet("Naureen")
@@ -62,9 +62,7 @@ add(1,2)
 # }
 
 def halve(number)
-  if number !== Integer
-    nil
-  end
+  return nil unless number.class == Integer
   number / 2
 end
 
